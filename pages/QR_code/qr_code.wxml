@@ -1,0 +1,20 @@
+<!--pages/QR_code/qr_code.wxml-->
+<view class="qr_code">
+ 
+  <view class="Head" >
+<text>二维码生成</text>
+</view>
+<view class="Bottom">
+  <view class="Body">
+  <textarea class="textarea" bindinput='bind_text' value='{{text}}' placeholder="输入文字或网址" style='background:#f4f4f4;margin:30rpx auto; padding:20rpx; width:90%;'></textarea>
+  <button bindtap='bind_sumbit'>生成</button>
+        <view class="img-box">
+            <image class="qrcode" bindtap="previewImg" mode="scaleToFill" src="{{imagePath}}" bindlongpress="downloadCode"></image>
+        </view>
+        <view class="canvas-box">
+            <canvas hidden="{{canvasHidden}}" style="width: 350rpx;height: 350rpx;" canvas-id="mycanvas"/>
+          </view>      
+          <text>长按保存图片到相册</text>
+  </view>
+</view>
+</view>

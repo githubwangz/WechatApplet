@@ -1,0 +1,36 @@
+{
+  "pages":[
+     
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/QR_code/qr_code"
+    
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#00D4D0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "zhuye",
+        "iconPath":"/image/首页.png",
+        "selectedIconPath": "/image/首页.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "rizhi"
+      }
+      
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

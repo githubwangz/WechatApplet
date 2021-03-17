@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="index">
+<view class="Head" >
+<text>这里啥都有</text>
+</view>
+<view class="Bottom">
+<view class="Body">
+<view class="Two">
+<view id="ErWeiMa" bindtap="Skip_QR">
+  <image src="../../image/二维码 .svg"></image>
+  <text class="Title">生成二维码</text>
+</view>
+<view id="YouXi">
+  <image src="../../image/游戏.svg"></image>
+  <text class="Title">喜加一</text>
+</view>
+</view>
+
+<view id="More">
+  <image src="../../image/更多.svg"></image>
+  <text class="Title">敬请期待</text>
+
+</view>
+</view>
+
+</view>
+</view>
